@@ -12,24 +12,24 @@ const Featured = () => {
             </div>
             <div className='flex gap-5 justify-center'>
                 {/* Card 1 */}
-                <div className="card bg-base-100 w-96 shadow-sm">
-                    <figure className="h-64 flex items-center justify-center bg-gray-50">
+                <div className="card bg-base-100 rounded-t-full w-96 shadow-sm">
+                    <figure className="h-64 flex items-center justify-center bg-fuchsia-300">
                         <img
-                            className="h-full object-contain"
+                            className="h-full  object-contain"
                             src="https://i.ibb.co.com/v6qFTYCh/pngwing-6.png"
                             alt="Pink Flower"
                         />
                     </figure>
                     <div className="card-body">
                         <div className="card-actions justify-center mt-4">
-                            <a href="#">Pink flower tree</a>
+                            <a className="underline" href="#">Pink flower tree</a>
                         </div>
                     </div>
                 </div>
 
                 {/* Card 2 */}
-                <div className="card bg-base-100 w-96 shadow-sm">
-                    <figure className="h-64 flex items-center justify-center bg-gray-50">
+                <div className="card bg-base-100 rounded-t-full w-96 shadow-sm">
+                    <figure className="h-64 flex items-center justify-center bg-yellow-100">
                         <img
                             className="h-full object-contain"
                             src="https://i.ibb.co.com/chm147hy/pngwing-7.png"
@@ -38,14 +38,14 @@ const Featured = () => {
                     </figure>
                     <div className="card-body">
                         <div className="card-actions justify-center mt-4">
-                            <a href="#">Pink flower tree</a>
+                            <a className="underline" href="#">Pink flower tree</a>
                         </div>
                     </div>
                 </div>
 
                 {/* Card 3 */}
-                <div className="card bg-base-100 w-96 shadow-sm">
-                    <figure className="h-64 flex items-center justify-center bg-gray-50">
+                <div className="card bg-base-100 rounded-t-full w-96 shadow-sm">
+                    <figure className="h-64 flex items-center justify-center bg-red-100">
                         <img
                             className="h-full object-contain"
                             src="https://i.ibb.co.com/3mvzXBWD/pngwing-10.png"
@@ -54,7 +54,7 @@ const Featured = () => {
                     </figure>
                     <div className="card-body">
                         <div className="card-actions justify-center mt-4">
-                            <a href="#">Pink flower tree</a>
+                            <a className="underline" href="#">Pink flower tree</a>
                         </div>
                     </div>
                 </div>
