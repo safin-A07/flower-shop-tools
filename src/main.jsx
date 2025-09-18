@@ -6,6 +6,7 @@ import Featured from './Featured'
 import Delivery from './Delivery'
 import Hotdeal from './Hotdeal'
 import NewsLetter from './NewsLetter'
+import Footer from './Footer'
 
 
 createRoot(document.getElementById('root')).render(
@@ -15,5 +16,6 @@ createRoot(document.getElementById('root')).render(
     <Delivery></Delivery>
     <Hotdeal></Hotdeal>
     <NewsLetter></NewsLetter>
+    <Footer></Footer>
   </StrictMode>,
 )
